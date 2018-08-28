@@ -2,9 +2,7 @@
 //
 // Write a function, reverseArray(), that takes in an array as an argument and returns a new array with the elements in the reverse order. Do not use built-in methods (e.g., .reverse()).
 //
-// const sentence = ['sense.','make', 'all', 'will', 'This'];
-// reverseArray(sentence);
-// // Should return ['This', 'will', 'all', 'make', 'sense.'];
+console.log("1. Reverse Array");
 
 const reverseArray = arr => {
   let returnArr = [];
@@ -15,3 +13,7 @@ const reverseArray = arr => {
 
   return returnArr;
 };
+
+const sentence = ['sense.','make', 'all', 'will', 'This'];
+console.log(reverseArray(sentence));
+// Should return ['This', 'will', 'all', 'make', 'sense.'];
