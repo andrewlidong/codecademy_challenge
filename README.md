@@ -2,7 +2,7 @@
 
 ## About
 
-Included is a series of 13 completed code challenges for the Codeacademy Coach position.  All code is written in JavaScript and includes console tests.  The first 7 challenges are mandatory, the following 4 are bonuses.  Below is the prompt.  
+Included is a series of 13 completed code challenges for the Codeacademy Coach position.  All code is written in JavaScript and includes console tests.  The first 7 challenges are mandatory, the following 4 are bonuses.  Below is the prompt.  To try it out, clone the repo and open index.html.  
 
 ## Mandatory Code Challenges (1-7)
 
