@@ -10,3 +10,14 @@
 // // Should print [ 'HELLO!', 'HI!', 'HEYA!', 'OI!', 'HEY!', 'YO!' ]
 
 console.log("8. Sort Years");
+
+// There is a typo in the question prompt
+
+const sortYears = yrArr => {
+  return yrArr.sort((first, second) => second - first);
+};
+
+const years = [1994, 2001, 1776, 1984, 2018, 3030];
+
+console.log(years);
+console.log(sortYears(years));

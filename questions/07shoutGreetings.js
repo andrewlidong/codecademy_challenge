@@ -7,11 +7,11 @@
 
 console.log("7. Shout Greetings");
 
-const shoutGreetings = str_arr => {
+const shoutGreetings = strArr => {
   let returnArr = [];
 
-  for (let i = 0; i < str_arr.length; i++) {
-    str = str_arr[i];
+  for (let i = 0; i < strArr.length; i++) {
+    str = strArr[i];
 
     returnArr.push(`${str.toUpperCase()}!`);
   }
